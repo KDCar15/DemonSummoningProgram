@@ -1,20 +1,38 @@
 package net.kdcar15.desupro.dao.gestion;
+import java.util.List;
+import java.util.Optional;
+
+import net.kdcar15.desupro.dao.Dao;
 import net.kdcar15.desupro.model.gestion.Species;
 
-public class SpeciesDAO {
-	public void addSpecies(Species species) {
-		
+public class SpeciesDAO implements Dao<Species>{
+	@Override
+	public Optional<Species> get(int id) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
 	}
-	
-	public Species getSpecies(int id) {
+
+	@Override
+	public List<Species> getAll() {
+		// TODO Auto-generated method stub
 		return null;
 	}
-	
-	public void updateSpecies(Species species) {
+
+	@Override
+	public void save(Species t) {
+		// TODO Auto-generated method stub
 		
 	}
-	
-	public void deleteSpecies(int id) {
+
+	@Override
+	public void update(Species t, String[] params) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Species t) {
+		// TODO Auto-generated method stub
 		
 	}
 }
