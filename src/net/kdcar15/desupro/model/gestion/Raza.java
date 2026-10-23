@@ -1,4 +1,4 @@
-package net.kdcar15.JDBCTest.model;
+package net.kdcar15.desupro.model.gestion;
 
 public class Raza {
 	private String nombre;

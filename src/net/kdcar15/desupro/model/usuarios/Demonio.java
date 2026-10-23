@@ -1,4 +1,6 @@
-package net.kdcar15.JDBCTest.model;
+package net.kdcar15.desupro.model.usuarios;
+
+import net.kdcar15.desupro.model.gestion.Especie;
 
 public class Demonio {
 	private Especie especie;

@@ -1,4 +1,4 @@
-package net.kdcar15.JDBCTest.model;
+package net.kdcar15.desupro.model.usuarios;
 
 public class Cliente {
 	private String nombres;
